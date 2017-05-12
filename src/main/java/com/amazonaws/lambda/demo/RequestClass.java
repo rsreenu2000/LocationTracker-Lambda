@@ -2,9 +2,9 @@ package com.amazonaws.lambda.demo;
 
 public class RequestClass {
 
-   String latitude;
-   String longitude;
-   String accuracy;
+   private String latitude;
+   private String longitude;
+   private String accuracy;
 
    public RequestClass() {
    }
