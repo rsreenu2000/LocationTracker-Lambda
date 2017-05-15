@@ -33,7 +33,7 @@ public class LambdaFunctionHandler implements RequestHandler<RequestClass, Boole
 
         try {
             // Set up the request
-            URL url = new URL("http://todofirebaseproject-94c98.appspot.com/places");
+            URL url = new URL("http://locationtracker-a13eb.appspot.com/location");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoInput(true);
